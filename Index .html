@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.google.com/noto/specimen/Noto+Sans?preview.layout=grid&query=Noto+Sans+JP&noto.query=Noto+Sans+">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Responsive Food Delivery Dashboard</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <input type="checkbox" id="cart">
+    <label for="cart" class="label-cart"><span class="fas fa-shopping-cart"></span></label>
+
+    <h3 class="logo">Food Delivery Services</h3>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <span class="fas fa-search"></span>
+            <a href="#">Search</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-home"></span>
+            <a href="#">Home</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-heart"></span>
+            <a href="#">Favs</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-user"></span>
+            <a href="#">Profile</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-sliders-h"></span>
+            <a href="#">Setting </a>
+        </div>
+    </div>
+
+    <!-- main dashboard -->
+    <div class="dashboard">
+        <div class="dashboard-banner">
+            <img src="img/img-banner.png" alt="">
+            <div class="banner-promo">
+                <h1><span>50% OFF</span><br>
+                    Tasty Food <br> On Your Hand </h1>
+            </div>
+        </div>
+
+        <h3 class="dashboard-title">Recommend Food For You</h3>
+        <div class="dashboard-menu">
+            <a href="#">Favorites</a>
+            <a href="#">Best Selller</a>
+            <a href="#">Near Me</a>
+            <a href="#">Promtion</a>
+            <a href="#">Top Rated</a>
+            <a href="#">All</a>
+        </div>
+
+        <div class="dashboard-content">
+            <div class="dashboard-card">
+                <img src="img/CD1.jpg" class="card-image" alt="">
+                <div class="card-detail">
+                    <h4>Amazing Pizza <span>$30</span></h4>
+                    <p>Lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 min</p>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <img src="img/salada.jpg" class="card-image" alt="">
+                <div class="card-detail">
+                    <h4>Fresh Salad<span>$30</span></h4>
+                    <p>Lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 min</p>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <img src="img/panqueca.jpg" class="card-image" alt="">
+                <div class="card-detail">
+                    <h4>Sweet Pancake<span>$30</span></h4>
+                    <p>Lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 min</p>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <img src="img/bife.jpg" class="card-image" alt="">
+                <div class="card-detail">
+                    <h4>Well Done Steak<span>$30</span></h4>
+                    <p>Lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 min</p>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <img src="img/café.jpg" class="card-image" alt="">
+                <div class="card-detail">
+                    <h4>Healty Breafast<span>$30</span></h4>
+                    <p>Lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 min</p>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <img src="img/hambuger.jpg" class="card-image" alt="">
+                <div class="card-detail">
+                    <h4>Fantastic Burger<span>$30</span></h4>
+                    <p>Lorem ipsum dolor sit</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>15-30 min</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- order dashboard -->
+
+    <div class="dashboard-order">
+        <h3>Order Menu</h3>
+        <div class="order-address">
+            <p>Address Delivery</p>
+            <h4>221 B Baker Street, London</h4>
+        </div>
+        <div class="order-time">
+            <span class="fas fa-clock"></span>30 min<span class="fas fa-map-marker-alt">2 Km</span>
+        </div>
+
+        <div class="order-wrapper">
+            <div class="order-card">
+                <img src="img/bife.jpg" class="order-image" alt="">
+                <div class="order-detail">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <i class="fas fa-times"></i> <input type="text" value="1">
+                </div>
+                <h4 class="order-price">$35</h4>
+            </div>
+
+            <div class="order-card">
+                <img src="img/salada.jpg" class="order-image" alt="">
+                <div class="order-detail">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <i class="fas fa-times"></i> <input type="text" value="2">
+                </div>
+                <h4 class="order-price">$40</h4>
+            </div>
+
+            <div class="order-card">
+                <img src="img/panqueca.jpg" class="order-image" alt="">
+                <div class="order-detail">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <i class="fas fa-times"></i> <input type="text" value="3">
+                </div>
+                <h4 class="order-price">$23</h4>
+            </div>
+        </div>
+
+        <hr class="divider">
+        <div class="order-total">
+            <p>Subtotal <span>$156</span></p>
+            <p>Tax (10%) <span>$15.6</span></p>
+            <p>Delivery Free <span>$3</span></p>
+
+            <div class="order-promo">
+                <input class="input-promo" type="text" placeholder="Apply Voucher">
+                <button class="button-promo">Find Promo</button>
+            </div>
+            <hr class="divider">
+            <p>Total <span>$147.6 </span></p>
+        </div>
+        <button class="checkout">
+            Checkout
+        </button>
+
+    </div>
+</body>
+
+</html>
